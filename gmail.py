@@ -17,6 +17,7 @@ cyan = lambda text: '\033[0;36m' + text + '\033[0m'
 white = lambda text: '\033[0;37m' + text + '\033[0m'
 
 #arguments
+
 email = sys.argv[1]
 passlist = sys.argv[2]
 
